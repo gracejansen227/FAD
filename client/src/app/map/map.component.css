@@ -1,0 +1,17 @@
+#gmap {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 250px;
+}
+
+#border {
+  border: 2px dashed lightpink;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px darkgray;
+  text-align: center;
+}

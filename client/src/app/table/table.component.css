@@ -1,0 +1,53 @@
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 3px 3px;
+  width: 250px;
+  height: 40px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px darkgray;
+  text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:500px;
+    margin-left: 30px;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+h2 {
+  font-family: 'Black Han Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 1px 1px 1px lightgray;
+}
+
+div {
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+select {
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-y: auto;
+  margin: 10px;
+}
