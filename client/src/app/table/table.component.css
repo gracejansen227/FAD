@@ -16,24 +16,31 @@ a {
   text-align: center;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width:500px;
-    margin-left: 30px;
-
+select option {
+    background-color:#ffe9ec;
+    text-align: center;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+form {
+  width: 600px;
+  height: 500px;
+text-align: center;
+margin-right: 0px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+#label {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-left: -30px;
+  display: inline-block;
+}
 
+
+/* select option[selected] {
+  background-color: yellow;
+  this doesn't work!
+} */
 
 h2 {
   font-family: 'Black Han Sans', sans-serif;
@@ -50,4 +57,13 @@ select {
   font-family: 'Josefin Sans', sans-serif;
   overflow-y: auto;
   margin: 10px;
+  border:1px solid pink;
+  -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+#wrapper {
+  background: linear-gradient(white, #ffcc99);
+  padding: 20px;
 }

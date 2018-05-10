@@ -1,8 +1,9 @@
-
+<div id="wrapper">
 <div style="text-align:center">
 
 
       <h2>find your frose</h2>
+</div>
 
 
 <form (ngSubmit)="onSubmitFindDrink($event)"
@@ -11,7 +12,7 @@ class="postForm"
 >
 
 <div id="type">
-   i am in
+<div id="label"> i am in </div>
 <select name="city" size="3" style="width: 200px" [(ngModel)]="drink.city" required>
    <option [ngValue]=" 'nola' ">new orleans</option>
    <option [ngValue]=" 'dallas' "> dallas</option>
@@ -22,7 +23,7 @@ class="postForm"
 
 
 <div id="price">
-price range:
+<div id="label">i wanna pay around</div>
  <select name="price" size="3" style="width: 200px" [(ngModel)]="drink.price">
     <option [ngValue]="5">$5 to $9</option>
     <option [ngValue]="10">$10 to $15</option>
@@ -33,7 +34,7 @@ price range:
 
 
 <div id="ingred">
-any special indredients?:
+<div id="label">i want this ingredient too</div>
   <select name="ingred" size="6" style="width: 200px" [(ngModel)]="drink.ingred" >
      <option [ngValue]=" 'vodka' ">vodka</option>
      <option [ngValue]=" 'strawberry' ">strawberry</option>
@@ -49,9 +50,11 @@ any special indredients?:
 </form>
 
 
+<div style="text-align:center">
 <ul>
   <li>
     <h2><a [routerLink]="['map']"> let's find you a bar </a></h2>
   </li>
 </ul>
+</div>
 </div>

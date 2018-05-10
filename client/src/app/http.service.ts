@@ -16,14 +16,15 @@ export class HttpService implements OnInit {
 
 
  showDrink(drink){
-   console.log(drink, "does this work ahh help?")
-   return drink;
+   //console.log(drink, "does this work ahh help?")
+   return this.drink;
  }
 
 
  makeDrink(drink){
    console.log("how come this doesn work?", drink);
-   this.showDrink(drink);
+   this.drink = drink
+   this.showDrink(this.drink);
    return this._http.post('/find', {drink: drink});
  }
 

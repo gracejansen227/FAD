@@ -3,3 +3,9 @@
   font-family: 'Black Han Sans', sans-serif;
   text-shadow: 1px 1px 1px darkgray;
   }
+
+
+span {
+   font-weight: bold;
+   color: #ffd0b6;
+}
